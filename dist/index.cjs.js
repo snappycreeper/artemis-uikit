@@ -2417,29 +2417,14 @@ var connectors = [
         connectorId: "injected",
     },
     {
-        title: "TrustWallet",
-        icon: Icon$3,
-        connectorId: "injected",
-    },
-    {
         title: "MathWallet",
         icon: Icon$5,
-        connectorId: "injected",
-    },
-    {
-        title: "TokenPocket",
-        icon: Icon$4,
         connectorId: "injected",
     },
     {
         title: "WalletConnect",
         icon: Icon$2,
         connectorId: "walletconnect",
-    },
-    {
-        title: "Binance Chain Wallet",
-        icon: Icon$1,
-        connectorId: "bsc",
     },
 ];
 var localStorageKey = "accountStatus";
