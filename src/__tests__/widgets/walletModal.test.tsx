@@ -397,7 +397,7 @@ it("renders ConnectModal correctly", () => {
           <a
             class="sc-bdfBwQ sc-gsTCUz cxXgLd djpNeP sc-iqHYGH hzLTbV"
             color="primary"
-            href="https://docs.pancakeswap.finance/guides/faq#how-do-i-set-up-my-wallet-on-binance-smart-chain"
+            href="https://artemis-protocol.gitbook.io/artemis/guides/metamask"
             rel="noreferrer noopener"
             target="_blank"
           >
