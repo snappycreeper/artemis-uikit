@@ -263,7 +263,7 @@ var Icon$U = function (props) {
 
 var Icon$T = function (props) {
     var theme = styled.useTheme();
-    var primaryColor = theme.isDark ? "#3C3742" : "#e9eaeb";
+    var primaryColor = theme.isDark ? "#3C3742" : "#1A1C2C";
     var secondaryColor = theme.isDark ? "#666171" : "#bdc2c4";
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 72 72" }, props),
         React__default['default'].createElement("path", { d: "M72 36C72 55.8823 55.8823 72 36 72C16.1177 72 0 55.8823 0 36C0 16.1177 16.1177 0 36 0C55.8823 0 72 16.1177 72 36Z", fill: primaryColor }),
@@ -1813,7 +1813,7 @@ var StyledModal = styled__default['default'].div(templateObject_1$g || (template
     var theme = _a.theme;
     return theme.mediaQueries.xs;
 });
-var ModalHeader = styled__default['default'].div(templateObject_2$6 || (templateObject_2$6 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  border-bottom: 1px solid #e9eaeb;\n  align-items: center;\n  padding: 12px 24px;\n"], ["\n  display: flex;\n  align-items: center;\n  border-bottom: 1px solid #e9eaeb;\n  align-items: center;\n  padding: 12px 24px;\n"])));
+var ModalHeader = styled__default['default'].div(templateObject_2$6 || (templateObject_2$6 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  border-bottom: 1px solid #1A1C2C;\n  align-items: center;\n  padding: 12px 24px;\n"], ["\n  display: flex;\n  align-items: center;\n  border-bottom: 1px solid #1A1C2C;\n  align-items: center;\n  padding: 12px 24px;\n"])));
 var ModalTitle = styled__default['default'](Flex)(templateObject_3$3 || (templateObject_3$3 = __makeTemplateObject(["\n  align-items: center;\n  flex: 1;\n"], ["\n  align-items: center;\n  flex: 1;\n"])));
 var Modal = function (_a) {
     var title = _a.title, onDismiss = _a.onDismiss, onBack = _a.onBack, children = _a.children, _b = _a.hideCloseButton, hideCloseButton = _b === void 0 ? false : _b, _c = _a.bodyPadding, bodyPadding = _c === void 0 ? "24px" : _c;
@@ -2519,7 +2519,7 @@ var UserBlock = function (_a) {
 
 var Icon = function (props) {
     var theme = styled.useTheme();
-    var primaryColor = theme.isDark ? "#3C3742" : "#e9eaeb";
+    var primaryColor = theme.isDark ? "#3C3742" : "#1A1C2C";
     var secondaryColor = theme.isDark ? "#666171" : "#bdc2c4";
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
         React__default['default'].createElement("path", { d: "M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16z", fill: primaryColor }),
@@ -2727,7 +2727,7 @@ var baseColors = {
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#1A1C2C", input: "#eeeaf4", tertiary: "#EFF4F5", text: '#4c68ef', textDisabled: '#b7c2c9', textSubtle: '#729ec2', borderColor: "#E9EAEB", card: "#1A1C2C", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#1A1C2C", contrast: "#191326", invertedContrast: "#1A1C2C", input: "#eeeaf4", tertiary: "#EFF4F5", text: '#4c68ef', textDisabled: '#b7c2c9', textSubtle: '#729ec2', borderColor: "#1A1C2C", card: "#1A1C2C", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#2e45b3", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#1A1C2C", invertedContrast: "#191326", input: "#483f5a", 
