@@ -2714,10 +2714,10 @@ var baseColors = {
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: '#4c68ef', textDisabled: '#b7c2c9', textSubtle: '#729ec2', borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#1A1C2C", input: "#eeeaf4", tertiary: "#EFF4F5", text: '#4c68ef', textDisabled: '#b7c2c9', textSubtle: '#729ec2', borderColor: "#E9EAEB", card: "#1A1C2C", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#2e45b3", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", 
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#2e45b3", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#1A1C2C", invertedContrast: "#191326", input: "#483f5a", 
     // primaryDark: "#0098A1",
     tertiary: "#353547", text: "#4c68ef", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
@@ -2741,7 +2741,7 @@ var light$5 = (_a = {},
         borderColorHover: "currentColor",
         boxShadow: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
         boxShadowActive: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
-        color: "#FFFFFF",
+        color: "#1A1C2C",
     },
     _a[SECONDARY] = {
         background: "transparent",
@@ -2781,7 +2781,7 @@ var light$5 = (_a = {},
         borderColorHover: "currentColor",
         boxShadow: "none",
         boxShadowActive: "none",
-        color: "#FFFFFF",
+        color: "#1A1C2C",
     },
     _a[SUBTLE] = {
         background: lightColors.textSubtle,
@@ -2791,7 +2791,7 @@ var light$5 = (_a = {},
         borderColorHover: "currentColor",
         boxShadow: "none",
         boxShadowActive: "none",
-        color: "#FFFFFF",
+        color: "#1A1C2C",
     },
     _a[SUCCESS] = {
         background: lightColors.success,
@@ -2801,7 +2801,7 @@ var light$5 = (_a = {},
         borderColorHover: "currentColor",
         boxShadow: "none",
         boxShadowActive: "none",
-        color: "#FFFFFF",
+        color: "#1A1C2C",
     },
     _a);
 var dark$5 = (_b = {},
