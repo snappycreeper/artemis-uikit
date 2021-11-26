@@ -937,7 +937,7 @@ var getHeight$1 = function (_a) {
             return "40px";
     }
 };
-var Input$1 = styled.input(templateObject_1$u || (templateObject_1$u = __makeTemplateObject(["\n  background-color: #efefef;\n  border: 0;\n  border-radius: 1px;\n  box-shadow: ", ";\n  color: #4c68ef;\n  display: block;\n  font-size: 16px;\n  height: ", ";\n  outline: 0;\n  padding: 0 16px;\n  width: 100%;\n\n  &::placeholder {\n    color: #4c68ef;\n  }\n\n  &:disabled {\n    background-color: ", ";\n    box-shadow: none;\n    color: ", ";\n    cursor: not-allowed;\n  }\n\n  &:focus:not(:disabled) {\n    box-shadow: 0px 0px 0px 1px #4c68ef, 0px 0px 0px 4px rgba(76,104,239,0.2);\n  }\n"], ["\n  background-color: #efefef;\n  border: 0;\n  border-radius: 1px;\n  box-shadow: ", ";\n  color: #4c68ef;\n  display: block;\n  font-size: 16px;\n  height: ", ";\n  outline: 0;\n  padding: 0 16px;\n  width: 100%;\n\n  &::placeholder {\n    color: #4c68ef;\n  }\n\n  &:disabled {\n    background-color: ", ";\n    box-shadow: none;\n    color: ", ";\n    cursor: not-allowed;\n  }\n\n  &:focus:not(:disabled) {\n    box-shadow: 0px 0px 0px 1px #4c68ef, 0px 0px 0px 4px rgba(76,104,239,0.2);\n  }\n"])), getBoxShadow$1, getHeight$1, function (_a) {
+var Input$1 = styled.input(templateObject_1$u || (templateObject_1$u = __makeTemplateObject(["\n  background-color: #efefef;\n  border: 0;\n  border-radius: 1px;\n  box-shadow: ", ";\n  color: #2F324A;\n  display: block;\n  font-size: 16px;\n  height: ", ";\n  outline: 0;\n  padding: 0 16px;\n  width: 100%;\n\n  &::placeholder {\n    color: #2F324A;\n  }\n\n  &:disabled {\n    background-color: ", ";\n    box-shadow: none;\n    color: ", ";\n    cursor: not-allowed;\n  }\n\n  &:focus:not(:disabled) {\n    box-shadow: 0px 0px 0px 1px #2F324A, 0px 0px 0px 4px rgba(76,104,239,0.2);\n  }\n"], ["\n  background-color: #efefef;\n  border: 0;\n  border-radius: 1px;\n  box-shadow: ", ";\n  color: #2F324A;\n  display: block;\n  font-size: 16px;\n  height: ", ";\n  outline: 0;\n  padding: 0 16px;\n  width: 100%;\n\n  &::placeholder {\n    color: #2F324A;\n  }\n\n  &:disabled {\n    background-color: ", ";\n    box-shadow: none;\n    color: ", ";\n    cursor: not-allowed;\n  }\n\n  &:focus:not(:disabled) {\n    box-shadow: 0px 0px 0px 1px #2F324A, 0px 0px 0px 4px rgba(76,104,239,0.2);\n  }\n"])), getBoxShadow$1, getHeight$1, function (_a) {
     var theme = _a.theme;
     return theme.colors.backgroundDisabled;
 }, function (_a) {
@@ -984,7 +984,7 @@ var CardRibbon = function (_a) {
 var templateObject_1$r;
 
 var InfoBox = styled.div(templateObject_1$q || (templateObject_1$q = __makeTemplateObject(["\n  width: auto;\n  background-color: white;\n  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;\n  border-radius: 10px;\n  padding: 37px 28px;\n  display: flex;\n  flex-flow: column;\n  justify-content: center;\n"], ["\n  width: auto;\n  background-color: white;\n  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;\n  border-radius: 10px;\n  padding: 37px 28px;\n  display: flex;\n  flex-flow: column;\n  justify-content: center;\n"])));
-var NftTitle = styled.p(templateObject_2$b || (templateObject_2$b = __makeTemplateObject(["\n  color: #4c68ef;\n  font-size: 23px;\n  font-weight: 700;\n  letter-spacing: 0.03em;\n  margin-bottom: 10px;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n"], ["\n  color: #4c68ef;\n  font-size: 23px;\n  font-weight: 700;\n  letter-spacing: 0.03em;\n  margin-bottom: 10px;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n"])));
+var NftTitle = styled.p(templateObject_2$b || (templateObject_2$b = __makeTemplateObject(["\n  color: #2F324A;\n  font-size: 23px;\n  font-weight: 700;\n  letter-spacing: 0.03em;\n  margin-bottom: 10px;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n"], ["\n  color: #2F324A;\n  font-size: 23px;\n  font-weight: 700;\n  letter-spacing: 0.03em;\n  margin-bottom: 10px;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  white-space: nowrap;\n"])));
 var NFTPrice = styled.div(templateObject_3$7 || (templateObject_3$7 = __makeTemplateObject([""], [""])));
 var BNBPrice = styled.span(templateObject_4$3 || (templateObject_4$3 = __makeTemplateObject(["\n  color: #777;\n"], ["\n  color: #777;\n"])));
 var USDPrice = styled.span(templateObject_5$2 || (templateObject_5$2 = __makeTemplateObject(["\n  color: #aaa;\n"], ["\n  color: #aaa;\n"])));
@@ -1241,7 +1241,7 @@ var Skeleton = function (_a) {
 };
 var templateObject_1$i, templateObject_2$8, templateObject_3$5, templateObject_4$2, templateObject_5$1;
 
-var Handle = styled.div(templateObject_1$h || (templateObject_1$h = __makeTemplateObject(["\n  background-color: #4c68ef;\n  border-radius: 50%;\n  cursor: pointer;\n  height: 32px;\n  left: 4px;\n  position: absolute;\n  top: 4px;\n  transition: left 200ms ease-in;\n  width: 32px;\n  z-index: 1;\n"], ["\n  background-color: #4c68ef;\n  border-radius: 50%;\n  cursor: pointer;\n  height: 32px;\n  left: 4px;\n  position: absolute;\n  top: 4px;\n  transition: left 200ms ease-in;\n  width: 32px;\n  z-index: 1;\n"])));
+var Handle = styled.div(templateObject_1$h || (templateObject_1$h = __makeTemplateObject(["\n  background-color: #2F324A;\n  border-radius: 50%;\n  cursor: pointer;\n  height: 32px;\n  left: 4px;\n  position: absolute;\n  top: 4px;\n  transition: left 200ms ease-in;\n  width: 32px;\n  z-index: 1;\n"], ["\n  background-color: #2F324A;\n  border-radius: 50%;\n  cursor: pointer;\n  height: 32px;\n  left: 4px;\n  position: absolute;\n  top: 4px;\n  transition: left 200ms ease-in;\n  width: 32px;\n  z-index: 1;\n"])));
 var Input = styled.input(templateObject_2$7 || (templateObject_2$7 = __makeTemplateObject(["\n  cursor: pointer;\n  opacity: 0;\n  height: 100%;\n  position: absolute;\n  width: 100%;\n  z-index: 3;\n\n  &:checked + ", " {\n    left: calc(100% - 36px);\n  }\n\n  &:focus + ", " {\n    box-shadow: ", ";\n  }\n\n  &:hover + ", ":not(:disabled):not(:checked) {\n    box-shadow: ", ";\n  }\n"], ["\n  cursor: pointer;\n  opacity: 0;\n  height: 100%;\n  position: absolute;\n  width: 100%;\n  z-index: 3;\n\n  &:checked + ", " {\n    left: calc(100% - 36px);\n  }\n\n  &:focus + ", " {\n    box-shadow: ", ";\n  }\n\n  &:hover + ", ":not(:disabled):not(:checked) {\n    box-shadow: ", ";\n  }\n"])), Handle, Handle, function (_a) {
     var theme = _a.theme;
     return theme.shadows.focus;
@@ -1251,7 +1251,7 @@ var Input = styled.input(templateObject_2$7 || (templateObject_2$7 = __makeTempl
 });
 var StyledToggle = styled.div(templateObject_3$4 || (templateObject_3$4 = __makeTemplateObject(["\n  align-items: center;\n  background-color: ", ";\n  border-radius: 24px;\n  box-shadow: ", ";\n  cursor: pointer;\n  display: inline-flex;\n  height: 40px;\n  position: relative;\n  transition: background-color 200ms;\n  width: 72px;\n"], ["\n  align-items: center;\n  background-color: ", ";\n  border-radius: 24px;\n  box-shadow: ", ";\n  cursor: pointer;\n  display: inline-flex;\n  height: 40px;\n  position: relative;\n  transition: background-color 200ms;\n  width: 72px;\n"])), function (_a) {
     var theme = _a.theme, checked = _a.checked;
-    return checked ? "#4c68ef" : theme.colors.input;
+    return checked ? "#2F324A" : theme.colors.input;
 }, function (_a) {
     var theme = _a.theme;
     return theme.shadows.inset;
@@ -1599,7 +1599,7 @@ var shadows = {
     active: "0px 0px 0px 1px #0098A1, 0px 0px 4px 8px rgba(31, 199, 212, 0.4)",
     success: "0px 0px 0px 1px #31D0AA, 0px 0px 0px 4px rgba(49, 208, 170, 0.2)",
     warning: "0px 0px 0px 1px #ED4B9E, 0px 0px 0px 4px rgba(237, 75, 158, 0.2)",
-    focus: "0px 0px 0px 1px #4c68ef, 0px 0px 0px 4px #4c68ef",
+    focus: "0px 0px 0px 1px #2F324A, 0px 0px 0px 4px #2F324A",
     inset: "inset 0px 2px 2px -1px rgba(74, 74, 104, 0.1)",
 };
 var spacing = [0, 4, 8, 16, 24, 32, 48, 64];
@@ -2704,22 +2704,22 @@ var templateObject_1;
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#4c68ef",
+    primary: "#2F324A",
     primaryBright: "#7d90f0",
     primaryDark: "#2e45b3",
-    secondary: "#4C68EF",
+    secondary: "#2F324A",
     success: "#31D0AA",
     warning: "#FFB237",
 };
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#2F324A", contrast: "#191326", invertedContrast: "#2F324A", input: "#eeeaf4", tertiary: "#EFF4F5", text: '#4c68ef', textDisabled: '#b7c2c9', textSubtle: '#729ec2', borderColor: "#2F324A", card: "#2F324A", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#2F324A", contrast: "#191326", invertedContrast: "#2F324A", input: "#eeeaf4", tertiary: "#EFF4F5", text: '#2F324A', textDisabled: '#b7c2c9', textSubtle: '#729ec2', borderColor: "#2F324A", card: "#2F324A", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#2e45b3", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#2F324A", invertedContrast: "#191326", input: "#483f5a", 
     // primaryDark: "#0098A1",
-    tertiary: "#353547", text: "#4c68ef", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
+    tertiary: "#353547", text: "#2F324A", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 

@@ -37,7 +37,7 @@ const Input = styled.input<InputProps>`
   border: 0;
   border-radius: 1px;
   box-shadow: ${getBoxShadow};
-  color: #4c68ef;
+  color: #2F324A;
   display: block;
   font-size: 16px;
   height: ${getHeight};
@@ -46,7 +46,7 @@ const Input = styled.input<InputProps>`
   width: 100%;
 
   &::placeholder {
-    color: #4c68ef;
+    color: #2F324A;
   }
 
   &:disabled {
@@ -57,7 +57,7 @@ const Input = styled.input<InputProps>`
   }
 
   &:focus:not(:disabled) {
-    box-shadow: 0px 0px 0px 1px #4c68ef, 0px 0px 0px 4px rgba(76,104,239,0.2);
+    box-shadow: 0px 0px 0px 1px #2F324A, 0px 0px 0px 4px rgba(76,104,239,0.2);
   }
 `;
 

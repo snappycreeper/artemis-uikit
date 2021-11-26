@@ -15,7 +15,7 @@ const InfoBox = styled.div`
 `;
 
 const NftTitle = styled.p`
-  color: #4c68ef;
+  color: #2F324A;
   font-size: 23px;
   font-weight: 700;
   letter-spacing: 0.03em;

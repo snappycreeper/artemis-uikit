@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Handle = styled.div`
-  background-color: #4c68ef;
+  background-color: #2F324A;
   border-radius: 50%;
   cursor: pointer;
   height: 32px;
@@ -36,7 +36,7 @@ export const Input = styled.input`
 
 const StyledToggle = styled.div<{ checked: boolean }>`
   align-items: center;
-  background-color: ${({ theme, checked }) => checked ? "#4c68ef" : theme.colors.input};
+  background-color: ${({ theme, checked }) => checked ? "#2F324A" : theme.colors.input};
   border-radius: 24px;
   box-shadow: ${({ theme }) => theme.shadows.inset};
   cursor: pointer;
