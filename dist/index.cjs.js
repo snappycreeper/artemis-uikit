@@ -2416,16 +2416,6 @@ var connectors = [
         icon: Icon$6,
         connectorId: "injected",
     },
-    {
-        title: "MathWallet",
-        icon: Icon$5,
-        connectorId: "injected",
-    },
-    {
-        title: "WalletConnect",
-        icon: Icon$2,
-        connectorId: "walletconnect",
-    },
 ];
 var localStorageKey = "accountStatus";
 
