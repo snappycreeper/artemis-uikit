@@ -21,7 +21,7 @@ it("renders ConnectModal correctly", () => {
               class="sc-bdfBwQ sc-hKgILt iEFWFe ESJmc"
               color="text"
             >
-              Connec to Artemis
+              Connect to Artemis
             </h2>
           </div>
           <button

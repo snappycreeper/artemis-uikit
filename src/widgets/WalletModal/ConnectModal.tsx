@@ -20,7 +20,7 @@ const HelpLink = styled(Link)`
 `;
 
 const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null }) => (
-  <Modal title="Connec to Artemis" onDismiss={onDismiss}>
+  <Modal title="Connect to Artemis" onDismiss={onDismiss}>
     {config.map((entry, index) => (
       <WalletCard
         key={entry.title}
