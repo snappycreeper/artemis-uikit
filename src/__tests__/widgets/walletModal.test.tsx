@@ -21,7 +21,7 @@ it("renders ConnectModal correctly", () => {
               class="sc-bdfBwQ sc-hKgILt iEFWFe ESJmc"
               color="text"
             >
-              Connect to a wallet
+              Connec to Artemis
             </h2>
           </div>
           <button
